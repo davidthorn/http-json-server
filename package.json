@@ -1,0 +1,30 @@
+{
+  "name": "http-json-server",
+  "version": "1.0.0",
+  "description": "An express server which handles requests for json end points",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/*.ts",
+    "serve": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidthorn/http-json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidthorn/http-json-server/issues"
+  },
+  "homepage": "https://github.com/davidthorn/http-json-server#readme",
+  "dependencies": {
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.4",
+    "@types/node": "^10.12.12",
+    "faker": "^4.1.0",
+    "sys": "0.0.1"
+  }
+}
